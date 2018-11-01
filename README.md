@@ -9,7 +9,4 @@ Using Python's Turtle module to draw Penrose steps. How far can you climb?
 * Simply run file and enjoy watching the endless steps come to life!
 
 #### License:
-All files in this Github repository is available under the MIT license. See [LICENSE](../LICENSE) for more information
-
-
-* http://mit-license.org
+All files in this Github repository is available under the MIT license. See [LICENSE](LICENSE.txt) for more information
