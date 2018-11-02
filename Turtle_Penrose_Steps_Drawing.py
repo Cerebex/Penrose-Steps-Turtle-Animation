@@ -4,15 +4,18 @@ import turtle
 penrose_steps = turtle.Turtle()
 
 # draw it all
+penrose_steps.screen.bgcolor("black")
 penrose_steps.penup()
 penrose_steps.pen(shown=False)
 penrose_steps.screen.setup(width=.7, height=.7, startx=None, starty=None)
 penrose_steps.pensize(width=1)
-penrose_steps.speed(10)
+penrose_steps.speed(2)
 penrose_steps.setposition(333, 120)
+
+penrose_steps.color("#0000D8")
 penrose_steps.pendown()
 top_right_corner = penrose_steps.position()
-penrose_steps.fillcolor('#404040')
+penrose_steps.fillcolor('#000078')
 penrose_steps.begin_fill()
 penrose_steps.seth(206)
 penrose_steps.pendown()
@@ -276,9 +279,10 @@ penrose_steps.write(arg='How Far Will You Climb?', align="center", font=("Comic 
 
 penrose_steps.speed(1)
 penrose_steps.shape("turtle")
-penrose_steps.color('green')
+
+penrose_steps.color('#003000', '#00C800')
 penrose_steps.showturtle()
-penrose_steps.shapesize(1.6,1.6,4)
+penrose_steps.shapesize(1.6,1.6,2)
 print(top_right_corner)
 penrose_steps.seth(215)
 penrose_steps.setposition((270,130))
