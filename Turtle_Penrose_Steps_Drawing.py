@@ -296,9 +296,6 @@ penrose_steps.seth(0)
 penrose_steps.seth(140)
 penrose_steps.seth(215)
 
-
-# penrose_steps.tiltangle(10)
-
 # penrose_steps.speed(1)
 # penrose_steps.pen(shown=True)
 
