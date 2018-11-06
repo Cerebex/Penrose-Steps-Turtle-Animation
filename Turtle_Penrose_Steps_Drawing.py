@@ -275,7 +275,7 @@ penrose_steps.setposition(step_12_top_front_right_position)
 penrose_steps.speed(1)
 penrose_steps.penup()
 penrose_steps.setposition((-30,270))
-penrose_steps.write(arg='How Far Will You Climb?', align="center", font=("Songti TC", 30, "normal"))
+penrose_steps.write(arg='How Far Will You Climb?', align="center", font=("Arial", 30, "normal"))
 
 penrose_steps.speed(1)
 penrose_steps.shape("turtle")
